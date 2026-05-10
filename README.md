@@ -1,8 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
-  <img alt="Quan Phan - Full-Stack Developer" src="./assets/banner.svg" width="100%" />
-</picture>
+<p align="center">
+  <img src="./assets/banner.png" alt="Quan Phan - Full-Stack Developer" width="100%" />
+</p>
 
 <p align="center">
   <a href="mailto:dbui@ins-engineering.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>&nbsp;
