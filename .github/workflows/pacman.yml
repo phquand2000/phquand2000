@@ -1,0 +1,24 @@
+name: Pac-Man Contribution
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: abozanona/pacman-contribution-graph@v4
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            github-contribution-grid-pacman.svg
+            github-contribution-grid-pacman-dark.svg?color_dots=#9be9a8,#40c463,#30a14e,#216e39&color_background=#0d1117
+      - name: Commit
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git add -A .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "generated pacman contribution" && git push)
