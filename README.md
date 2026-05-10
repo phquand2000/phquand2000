@@ -1,9 +1,5 @@
 <img src="./assets/banner.png" alt="Quan Phan" width="100%" />
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1500&color=8B949E&center=true&vCenter=true&width=520&height=30&lines=chromium+patches+%C2%B7+browser+engineering+%C2%B7+AI+tooling;158+actions+for+After+Effects+%C2%B7+29+services;building+products+that+remove+repetitive+work" alt="Typing SVG" /></a>
-</p>
-
 <table>
 <tr>
 <td width="55%" valign="top">
@@ -11,11 +7,6 @@
 I build products at the intersection of **browser engineering**, **AI integration**, and **workflow automation** — from patching Chromium at the C++ level to shipping AI-powered creative tools.
 
 Most of my work involves taking complex systems (browsers, video editors, document processors) and making them programmable or smarter through automation and AI agents.
-
-**Currently focused on:**
-- Anti-detect browser engine built on Chromium (C++, 46 patches)
-- AI-powered extensions for creative workflows
-- Enterprise workflow automation with n8n
 
 <sub>Hanoi, Vietnam</sub>
 
@@ -33,6 +24,9 @@ Most of my work involves taking complex systems (browsers, video editors, docume
 </td>
 </tr>
 </table>
+
+> [!NOTE]
+> Currently focused on: **anti-detect browser engine** (Chromium C++, 46 patches) · **AI-powered creative tools** · **enterprise workflow automation**
 
 ### Projects
 
@@ -63,15 +57,23 @@ Most of my work involves taking complex systems (browsers, video editors, docume
 </tr>
 </table>
 
----
+```mermaid
+graph LR
+    subgraph " "
+        A["🔧 Chromium C++"] --> B["Anti-detect Browser"]
+        C["TypeScript"] --> D["After Effects AI"]
+        C --> E["Word GPT Plus"]
+        F["Python"] --> G["n8n AI Builder"]
+        H["Go · Rust"] --> I["Tooling & Infra"]
+        B --> J(("Products"))
+        D --> J
+        E --> J
+        G --> J
+        I --> J
+    end
+```
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=phquand2000&theme=algolia&no-frame=true&column=6&margin-w=10" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=phquand2000&theme=flat&no-frame=true&column=6&margin-w=10" />
-    <img src="https://github-profile-trophy.vercel.app/?username=phquand2000&theme=algolia&no-frame=true&column=6&margin-w=10" alt="Trophies" width="700" />
-  </picture>
-</p>
+---
 
 <p align="center">
   <picture>
