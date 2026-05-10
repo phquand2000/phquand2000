@@ -1,66 +1,51 @@
-<p align="center">
-  <img src="./assets/banner.png" alt="Quan Phan - Full-Stack Developer" width="100%" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner.svg" />
+  <img alt="Quan Phan - Full-Stack Developer" src="./assets/banner.svg" width="100%" />
+</picture>
 
-<p align="center">
-  <a href="mailto:dbui@ins-engineering.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>&nbsp;
-  <a href="https://github.com/phquand2000"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=phquand2000&color=58a6ff&style=flat-square&label=views" />
-</p>
+<br/>
 
----
+I build enterprise tools, browser automation, and AI-powered applications at **LongWay Company** in Hanoi.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Languages
 
-### About Me
+![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
+![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
+![Go](https://img.shields.io/badge/-Go-000?&logo=Go)
+![Rust](https://img.shields.io/badge/-Rust-000?&logo=Rust)
+![C++](https://img.shields.io/badge/-C++-000?&logo=cplusplus&logoColor=00599C)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
 
-```yaml
-role: Full-Stack Developer
-company: LongWay Company
-location: Hanoi, Vietnam
-```
+### Frameworks & Tools
 
-**Currently building:**
-- Enterprise project management (TypeScript)
-- Browser automation & extensions (C++)
-- AI workflow tools (Python, n8n)
-- Systems programming (Rust, Go)
+![NestJS](https://img.shields.io/badge/-NestJS-000?&logo=NestJS&logoColor=E0234E)
+![React](https://img.shields.io/badge/-React-000?&logo=React)
+![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=nodedotjs)
+![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=MySQL)
+![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
+![n8n](https://img.shields.io/badge/-n8n-000?&logo=n8n)
+![Linux](https://img.shields.io/badge/-Linux-000?&logo=Linux)
+![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
 
-</td>
-<td width="50%" valign="top">
+### Projects
 
-### Tech Stack
+[![](https://img.shields.io/badge/-🔧%20n8n%20Premium%20Nodes-000)](https://github.com/phquand2000/n8n_folk_premium)
+[![](https://img.shields.io/badge/-🛡️%20BlurShield-000)](https://github.com/phquand2000/BlurShield)
+[![](https://img.shields.io/badge/-📄%20Docs%20Extension-000)](https://github.com/phquand2000/docs_ext)
+[![](https://img.shields.io/badge/-🎬%20AE%20Automation-000)](https://github.com/phquand2000/adobe_effects_ext)
+[![](https://img.shields.io/badge/-📊%20INS%20Reports-000)](https://github.com/phquand2000/ins_reports_release)
+[![](https://img.shields.io/badge/-🦀%20Learning%20Rust-000)](https://github.com/phquand2000/learning_rust)
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,python,go,rust,cpp,js&perline=6&theme=dark" />
-  </a>
-  <br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nestjs,react,nodejs,mysql,docker,linux&perline=6&theme=dark" />
-  </a>
-</p>
+<br/>
 
-</td>
-</tr>
-</table>
+| <a href="https://github.com/phquand2000"><img align="center" src="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true" /></a> | <a href="https://github.com/phquand2000"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phquand2000&layout=compact&theme=github_dark&hide_border=true&langs_count=6&bg_color=0d1117" /></a> |
+| --- | --- |
 
----
+<br/>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true&card_width=700" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=default&hide_border=true&card_width=700" />
-    <img src="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true&card_width=700" alt="GitHub Streak" width="700" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" width="700" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" />
+</picture>
