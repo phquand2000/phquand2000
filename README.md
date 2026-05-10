@@ -2,29 +2,27 @@
 
 <br/>
 
-<a href="https://skillicons.dev">
-  <img align="right" src="https://skillicons.dev/icons?i=ts,python,cpp&perline=3&theme=dark" />
+<a href="https://github-widgetbox.vercel.app">
+  <img align="right" src="https://github-widgetbox.vercel.app/api/profile?username=phquand2000&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub Profile" />
 </a>
 
 I build products at the intersection of **browser engineering**, **AI integration**, and **workflow automation** — from patching Chromium at the C++ level to shipping AI-powered creative tools.
 
 Most of my work involves taking complex systems — browsers, video editors, document processors — and making them programmable through automation and AI agents.
 
-<a href="https://skillicons.dev">
-  <img align="right" src="https://skillicons.dev/icons?i=go,rust,nestjs&perline=3&theme=dark" />
-</a>
-
-`TypeScript` · `Python` · `C++` · `Go` · `Rust`<br/>
-`NestJS` · `React` · `Node.js` · `MySQL` · `Docker` · `Linux`
-
 <sub>Hanoi, Vietnam</sub>
 
-<br/><br/>
+<br/>
+
+<p align="center">
+  <img src="https://github-widgetbox.vercel.app/api/skills?names=typescript,python,cpp,go,rust,javascript&theme=dark" alt="Languages" />
+</p>
+<p align="center">
+  <img src="https://github-widgetbox.vercel.app/api/skills?names=nestjs,react,nodejs,mysql,docker,linux&theme=dark" alt="Tools" />
+</p>
 
 > [!NOTE]
 > **Currently focused on:** anti-detect browser engine (Chromium C++, 46 patches) · AI-powered creative tools · enterprise workflow automation
-
-<br/>
 
 <details open>
 <summary><h3>Projects</h3></summary>
@@ -67,7 +65,17 @@ graph LR
     I --> J
 ```
 
-<br/>
+```mermaid
+pie showData
+    title Languages I Work With
+    "TypeScript" : 40
+    "C++" : 25
+    "Python" : 15
+    "Go" : 10
+    "Rust" : 10
+```
+
+---
 
 <details open>
 <summary><h3>Activity</h3></summary>
@@ -90,12 +98,31 @@ graph LR
   </picture>
 </p>
 
+</details>
+
+---
+
+<details open>
+<summary><h3>3D Contributions</h3></summary>
+
+<br/>
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" width="700" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" width="700" />
   </picture>
 </p>
 
 </details>
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-pacman-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-pacman.svg" />
+    <img alt="Pac-Man Contribution" src="./github-contribution-grid-pacman.svg" width="700" />
+  </picture>
+</p>
