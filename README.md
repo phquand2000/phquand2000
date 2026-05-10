@@ -1,39 +1,44 @@
-<img src="./assets/banner.png" alt="Banner" width="100%" />
+<p align="center">
+  <img src="./assets/banner.png" alt="Quan Phan — Full-Stack Developer" width="100%" />
+</p>
 
-<br/>
+<p align="center">
+  <strong>Building enterprise tools, browser automation, and AI-powered applications</strong><br/>
+  <sub>@ LongWay Company · Hanoi, Vietnam</sub>
+</p>
 
-I build enterprise tools, browser automation, and AI-powered applications at **LongWay Company** in Hanoi.
+<p align="center">
+  <img src="https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript" />
+  <img src="https://img.shields.io/badge/-Python-000?&logo=Python" />
+  <img src="https://img.shields.io/badge/-Go-000?&logo=Go" />
+  <img src="https://img.shields.io/badge/-Rust-000?&logo=Rust" />
+  <img src="https://img.shields.io/badge/-C++-000?&logo=cplusplus&logoColor=00599C" />
+  <img src="https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript" />
+</p>
 
-### Languages
+<p align="center">
+  <img src="https://img.shields.io/badge/-NestJS-000?&logo=NestJS&logoColor=E0234E" />
+  <img src="https://img.shields.io/badge/-React-000?&logo=React" />
+  <img src="https://img.shields.io/badge/-Node.js-000?&logo=nodedotjs" />
+  <img src="https://img.shields.io/badge/-MySQL-000?&logo=MySQL" />
+  <img src="https://img.shields.io/badge/-Docker-000?&logo=Docker" />
+  <img src="https://img.shields.io/badge/-n8n-000?&logo=n8n" />
+  <img src="https://img.shields.io/badge/-Linux-000?&logo=Linux" />
+  <img src="https://img.shields.io/badge/-Git-000?&logo=Git" />
+</p>
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
-![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
-![Go](https://img.shields.io/badge/-Go-000?&logo=Go)
-![Rust](https://img.shields.io/badge/-Rust-000?&logo=Rust)
-![C++](https://img.shields.io/badge/-C++-000?&logo=cplusplus&logoColor=00599C)
-![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
+---
 
-### Frameworks & Tools
+<p align="center">
+  <a href="https://github.com/phquand2000/n8n_folk_premium"><img src="https://img.shields.io/badge/-🔧%20n8n%20Premium%20Nodes-000" /></a>
+  <a href="https://github.com/phquand2000/BlurShield"><img src="https://img.shields.io/badge/-🛡️%20BlurShield-000" /></a>
+  <a href="https://github.com/phquand2000/docs_ext"><img src="https://img.shields.io/badge/-📄%20Docs%20Extension-000" /></a>
+  <a href="https://github.com/phquand2000/adobe_effects_ext"><img src="https://img.shields.io/badge/-🎬%20AE%20Automation-000" /></a>
+  <a href="https://github.com/phquand2000/ins_reports_release"><img src="https://img.shields.io/badge/-📊%20INS%20Reports-000" /></a>
+  <a href="https://github.com/phquand2000/learning_rust"><img src="https://img.shields.io/badge/-🦀%20Learning%20Rust-000" /></a>
+</p>
 
-![NestJS](https://img.shields.io/badge/-NestJS-000?&logo=NestJS&logoColor=E0234E)
-![React](https://img.shields.io/badge/-React-000?&logo=React)
-![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=nodedotjs)
-![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=MySQL)
-![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
-![n8n](https://img.shields.io/badge/-n8n-000?&logo=n8n)
-![Linux](https://img.shields.io/badge/-Linux-000?&logo=Linux)
-![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
-
-### Projects
-
-[![](https://img.shields.io/badge/-🔧%20n8n%20Premium%20Nodes-000)](https://github.com/phquand2000/n8n_folk_premium)
-[![](https://img.shields.io/badge/-🛡️%20BlurShield-000)](https://github.com/phquand2000/BlurShield)
-[![](https://img.shields.io/badge/-📄%20Docs%20Extension-000)](https://github.com/phquand2000/docs_ext)
-[![](https://img.shields.io/badge/-🎬%20AE%20Automation-000)](https://github.com/phquand2000/adobe_effects_ext)
-[![](https://img.shields.io/badge/-📊%20INS%20Reports-000)](https://github.com/phquand2000/ins_reports_release)
-[![](https://img.shields.io/badge/-🦀%20Learning%20Rust-000)](https://github.com/phquand2000/learning_rust)
-
-<br/>
+---
 
 <p align="center">
   <picture>
@@ -43,10 +48,10 @@ I build enterprise tools, browser automation, and AI-powered applications at **L
   </picture>
 </p>
 
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" />
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" width="700" />
+  </picture>
+</p>
