@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner.svg" />
-  <img alt="Quan Phan - Full-Stack Developer" src="./assets/banner.svg" width="100%" />
-</picture>
+<img src="./assets/banner.png" alt="Banner" width="100%" />
 
 <br/>
 
@@ -39,8 +35,13 @@ I build enterprise tools, browser automation, and AI-powered applications at **L
 
 <br/>
 
-| <a href="https://github.com/phquand2000"><img align="center" src="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true" /></a> | <a href="https://github.com/phquand2000"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phquand2000&layout=compact&theme=github_dark&hide_border=true&langs_count=6&bg_color=0d1117" /></a> |
-| --- | --- |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true&card_width=700" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=default&hide_border=true&card_width=700" />
+    <img src="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true&card_width=700" alt="GitHub Streak" />
+  </picture>
+</p>
 
 <br/>
 
