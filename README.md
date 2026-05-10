@@ -1,16 +1,21 @@
 <img src="./assets/banner.png" alt="Quan Phan" width="100%" />
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1500&color=8B949E&center=true&vCenter=true&multiline=false&width=500&height=30&lines=browser+automation+%C2%B7+workflow+engines+%C2%B7+AI+tooling;building+things+that+automate+the+boring+stuff;TypeScript+%C2%B7+Python+%C2%B7+Go+%C2%B7+Rust+%C2%B7+C%2B%2B" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1500&color=8B949E&center=true&vCenter=true&width=520&height=30&lines=chromium+patches+%C2%B7+browser+engineering+%C2%B7+AI+tooling;158+actions+for+After+Effects+%C2%B7+29+services;building+products+that+remove+repetitive+work" alt="Typing SVG" /></a>
 </p>
 
 <table>
 <tr>
 <td width="55%" valign="top">
 
-I build browser automation systems, workflow engines, and internal tools — mostly the kind of software that removes repetitive work so people can focus on what matters.
+I build products at the intersection of **browser engineering**, **AI integration**, and **workflow automation** — from patching Chromium at the C++ level to shipping AI-powered creative tools.
 
-My stack spans **TypeScript** and **Python** for product work, **C++** for browser-level engineering, **Go** and **Rust** for tooling and systems, with **NestJS**, **React**, and **n8n** tying it all together.
+Most of my work involves taking complex systems (browsers, video editors, document processors) and making them programmable or smarter through automation and AI agents.
+
+**Currently focused on:**
+- Anti-detect browser engine built on Chromium (C++, 46 patches)
+- AI-powered extensions for creative workflows
+- Enterprise workflow automation with n8n
 
 <sub>Hanoi, Vietnam</sub>
 
@@ -18,7 +23,7 @@ My stack spans **TypeScript** and **Python** for product work, **C++** for brows
 <td width="45%" valign="top">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,python,go,rust,cpp,js&perline=6&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=ts,python,cpp,go,rust,js&perline=6&theme=dark" />
 </a>
 <br/>
 <a href="https://skillicons.dev">
@@ -34,16 +39,26 @@ My stack spans **TypeScript** and **Python** for product work, **C++** for brows
 <table>
 <tr>
 <td width="50%" valign="top">
-  <b>Browser & Automation</b><br/><br/>
-  <a href="https://github.com/phquand2000/BlurShield"><b>BlurShield</b></a> — Privacy-focused screen blur shield<br/>
-  <a href="https://github.com/phquand2000/docs_ext"><b>Docs Extension</b></a> — Chrome extension for doc workflows<br/>
-  <a href="https://github.com/phquand2000/adobe_effects_ext"><b>AE Automation</b></a> — After Effects scripting bridge
+  <b>AI-Powered Tools</b><br/><br/>
+  <a href="https://github.com/phquand2000/adobe_effects_ext"><b>AE AI Assistant</b></a><br/>
+  <sub>CEP extension for After Effects — 29 services, 158 actions for AI-driven VFX automation</sub>
+  <br/><br/>
+  <a href="https://github.com/phquand2000/docs_ext"><b>Word GPT Plus</b></a><br/>
+  <sub>AI Agent integration into Microsoft Word with MCP server bridge</sub>
+  <br/><br/>
+  <a href="https://github.com/phquand2000/n8n_folk_premium"><b>n8n Premium</b></a><br/>
+  <sub>Enterprise n8n with custom AI Workflow Builder</sub>
 </td>
 <td width="50%" valign="top">
-  <b>Workflow & Enterprise</b><br/><br/>
-  <a href="https://github.com/phquand2000/n8n_folk_premium"><b>n8n Premium Nodes</b></a> — Custom integrations for n8n<br/>
-  <a href="https://github.com/phquand2000/ins_reports_release"><b>INS Reports</b></a> — Automated report generation<br/>
-  <a href="https://github.com/phquand2000/learning_rust"><b>Learning Rust</b></a> — Systems programming exercises
+  <b>Browser & Automation</b><br/><br/>
+  <a href="https://github.com/phquand2000/BlurShield"><b>BlurShield</b></a><br/>
+  <sub>Privacy-focused screen blur shield tool</sub>
+  <br/><br/>
+  <a href="https://github.com/phquand2000/ins_reports_release"><b>INS Reports</b></a><br/>
+  <sub>Automated engineering report generation</sub>
+  <br/><br/>
+  <a href="https://github.com/phquand2000/learning_rust"><b>Learning Rust</b></a><br/>
+  <sub>Systems programming exploration</sub>
 </td>
 </tr>
 </table>
