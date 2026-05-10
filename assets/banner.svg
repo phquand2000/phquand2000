@@ -1,0 +1,104 @@
+<svg fill="none" viewBox="0 0 1200 320" width="1200" height="320" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes gradient {
+          0%   { background-position: 0% 50%; }
+          50%  { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(12px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .banner {
+          width: 100%;
+          height: 320px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          background: linear-gradient(135deg, #0d1117 0%, #161b22 25%, #0d1117 50%, #1a1f2b 75%, #0d1117 100%);
+          background-size: 400% 400%;
+          animation: gradient 12s ease infinite;
+          position: relative;
+          overflow: hidden;
+        }
+        .banner::before {
+          content: '';
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          background: radial-gradient(circle at 20% 80%, rgba(88,166,255,0.06) 0%, transparent 50%),
+                      radial-gradient(circle at 80% 20%, rgba(188,140,255,0.06) 0%, transparent 50%);
+        }
+        .name {
+          font-size: 56px;
+          font-weight: 700;
+          background: linear-gradient(135deg, #58a6ff, #bc8cff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          animation: fadeIn 1s ease;
+          letter-spacing: -1px;
+          position: relative;
+        }
+        .role {
+          font-size: 18px;
+          color: #8b949e;
+          letter-spacing: 4px;
+          text-transform: uppercase;
+          margin-top: 8px;
+          animation: fadeIn 1s ease 0.2s both;
+          position: relative;
+        }
+        .line {
+          width: 60px;
+          height: 2px;
+          background: linear-gradient(90deg, #58a6ff, #bc8cff);
+          margin-top: 20px;
+          border-radius: 1px;
+          animation: fadeIn 1s ease 0.4s both;
+          position: relative;
+        }
+        .tech {
+          font-size: 13px;
+          color: #58a6ff;
+          font-family: "SF Mono", "Fira Code", "Cascadia Code", monospace;
+          margin-top: 16px;
+          opacity: 0.6;
+          animation: fadeIn 1s ease 0.6s both;
+          position: relative;
+        }
+        @media (prefers-color-scheme: light) {
+          .banner {
+            background: linear-gradient(135deg, #ffffff 0%, #f6f8fa 25%, #ffffff 50%, #f0f3f6 75%, #ffffff 100%);
+          }
+          .banner::before {
+            background: radial-gradient(circle at 20% 80%, rgba(9,105,218,0.04) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(130,80,223,0.04) 0%, transparent 50%);
+          }
+          .name {
+            background: linear-gradient(135deg, #0969da, #8250df);
+            -webkit-background-clip: text;
+            background-clip: text;
+          }
+          .role { color: #57606a; }
+          .line { background: linear-gradient(90deg, #0969da, #8250df); }
+          .tech { color: #0969da; }
+        }
+        @media (prefers-reduced-motion) {
+          .banner { animation: none; }
+          .name, .role, .line, .tech { animation: none; }
+        }
+      </style>
+      <div class="banner">
+        <div class="name">Quan Phan</div>
+        <div class="role">Full-Stack Developer</div>
+        <div class="line"></div>
+        <div class="tech">TypeScript · Python · Go · Rust · C++</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
