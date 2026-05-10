@@ -4,7 +4,7 @@
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="55%" valign="top">
 
 I write software that automates the tedious parts — browser automation, workflow engines, reporting pipelines. Most of my work ships internally at **LongWay Company** in Hanoi, where I build the tools our teams actually use every day.
 
@@ -13,11 +13,15 @@ Lately I've been deep in **n8n workflow customization**, **Chrome extension inte
 <sub>If it can be automated, it probably should be.</sub>
 
 </td>
-<td width="40%" valign="top">
+<td width="45%" valign="top">
 
-`TypeScript` · `Python` · `Go` · `Rust` · `C++`
-
-NestJS · React · Node.js · MySQL · Docker · Linux
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=ts,python,go,rust,cpp,js&perline=6&theme=dark" />
+</a>
+<br/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nestjs,react,nodejs,mysql,docker,linux&perline=6&theme=dark" />
+</a>
 
 </td>
 </tr>
@@ -25,26 +29,46 @@ NestJS · React · Node.js · MySQL · Docker · Linux
 
 ### What I've built
 
-[**n8n Premium Nodes**](https://github.com/phquand2000/n8n_folk_premium) — Custom node pack extending n8n with integrations that don't exist upstream
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/phquand2000/n8n_folk_premium"><b>n8n Premium Nodes</b></a><br/>
+<sub>Custom node pack extending n8n with integrations that don't exist upstream</sub>
+</td>
+<td width="50%">
+<a href="https://github.com/phquand2000/BlurShield"><b>BlurShield</b></a><br/>
+<sub>Browser-level content protection layer</sub>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/phquand2000/docs_ext"><b>Docs Extension</b></a><br/>
+<sub>Chrome extension for document workflow automation</sub>
+</td>
+<td width="50%">
+<a href="https://github.com/phquand2000/adobe_effects_ext"><b>AE Automation</b></a><br/>
+<sub>Scripting bridge for After Effects batch rendering</sub>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/phquand2000/ins_reports_release"><b>INS Reports</b></a><br/>
+<sub>Internal reporting dashboard used across teams</sub>
+</td>
+<td width="50%">
+<a href="https://github.com/phquand2000/learning_rust"><b>Learning Rust</b></a><br/>
+<sub>Systems programming exploration & exercises</sub>
+</td>
+</tr>
+</table>
 
-[**BlurShield**](https://github.com/phquand2000/BlurShield) — Browser-level content protection layer
-
-[**Docs Extension**](https://github.com/phquand2000/docs_ext) — Chrome extension for document workflow automation
-
-[**AE Automation**](https://github.com/phquand2000/adobe_effects_ext) — Scripting bridge for After Effects batch rendering
-
-[**INS Reports**](https://github.com/phquand2000/ins_reports_release) — Internal reporting dashboard used across teams
-
-<details>
-<summary>Activity</summary>
-
-<br/>
+---
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true&card_width=600" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=default&hide_border=true&card_width=600" />
-    <img src="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true&card_width=600" alt="GitHub Streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true&card_width=700" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=default&hide_border=true&card_width=700" />
+    <img src="https://streak-stats.demolab.com/?user=phquand2000&theme=github-dark-blue&hide_border=true&card_width=700" alt="GitHub Streak" />
   </picture>
 </p>
 
@@ -52,8 +76,6 @@ NestJS · React · Node.js · MySQL · Docker · Linux
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" width="600" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" width="700" />
   </picture>
 </p>
-
-</details>
