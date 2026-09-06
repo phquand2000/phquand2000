@@ -1,4 +1,4 @@
-<img src="./assets/banner.png" alt="Quan Phan" width="100%" />
+<img src="./assets/banner.svg" alt="Quan Phan — browser internals, distributed systems, agent tooling" width="100%" />
 
 I work *down* the stack rather than across it — from patching Chromium in C++ to
 driving those same browsers with AI agents. Most of what I build takes a closed
