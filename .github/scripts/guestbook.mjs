@@ -16,7 +16,7 @@ const clean = (s) =>
     // bidi control would survive a filter that only looks at literal codepoints.
     .replace(/&(?:#\d{1,7}|#[xX][0-9a-fA-F]{1,6}|[a-zA-Z][a-zA-Z0-9]{1,31});/g, ' ')
     .replace(/[\u0000-\u001F\u007F-\u009F]/g, ' ')
-    .replace(/[\u00AD\u200B-\u200F\u202A-\u202E\u2060-\u2064\u2066-\u2069\uFEFF]/g, '')
+    .replace(/[\u00AD\u200B\u200E\u200F\u202A-\u202E\u2060-\u2064\u2066-\u2069\uFEFF\u115F\u1160\u3164\uFFA0]/g, '')
     .replace(/https?:\/\/\S+/gi, '')
     .replace(/\bwww\.\S+/gi, '')
     .replace(/[<>`|\\]/g, '')
@@ -24,12 +24,13 @@ const clean = (s) =>
     .replace(/[*_~#=]/g, '')
     // A bare @name autolinks into a mention that pings a real account.
     .replace(/@/g, ' ')
-    .replace(/^[\s>+\-!.\d]+/, '')
+    .replace(/^(?:[\s>+\-!.]+|\d+[.)]\s*)+/, '')
     .replace(/\s+/g, ' ')
     .trim();
 
-// Slice by code point: a UTF-16 cut can split an emoji into a lone surrogate.
-const clip = (s) => [...s].slice(0, MAX).join('');
+// Slice by grapheme: a code-point cut still splits flags and ZWJ sequences.
+const seg = new Intl.Segmenter('en', { granularity: 'grapheme' });
+const clip = (s) => [...seg.segment(s)].slice(0, MAX).map((g) => g.segment).join('');
 
 const message = clip(clean(process.env.ISSUE_BODY));
 const user = (process.env.ISSUE_USER || '').replace(/[^A-Za-z0-9-]/g, '').slice(0, 39);
