@@ -18,13 +18,15 @@ jobs:
     if: startsWith(github.event.issue.title, 'guestbook')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # Pinned: this job holds contents:write and runs on public input.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Add entry
         id: entry
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: node .github/scripts/guestbook.mjs
 
       - name: Commit

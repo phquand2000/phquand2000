@@ -1,8 +1,9 @@
 <img src="./assets/banner.svg" alt="Quan Phan — browser internals, distributed systems, agent tooling" width="100%" />
 
 I work *down* the stack rather than across it — from patching Chromium in C++ to
-driving those same browsers with AI agents. Most of what I build takes a closed
-system (a browser, After Effects, Word, n8n) and makes it programmable.
+driving those same browsers with AI agents. Most of what I build takes a system that
+was never built to be scripted (a browser, After Effects, Word, n8n) and makes it
+programmable.
 
 <sub>Hanoi, Vietnam</sub>
 
@@ -21,7 +22,7 @@ The interesting problems live at the seams between those layers.
 ### Selected work
 
 **Anti-detect browser engine** — custom Chromium build, ~66 patches organised into six
-layers (de-telemetry, module, automation, fingerprint, network). Spans canvas, audio,
+layers (de-telemetry, module, automation, fingerprint, network, branding). Spans canvas, audio,
 WebGL and font surfaces through to TLS cipher ordering and HTTP/2 SETTINGS fingerprints.
 `C++` · closed source — but the surface map is public: [browser-fingerprint-surfaces](https://github.com/phquand2000/browser-fingerprint-surfaces)
 
@@ -31,7 +32,7 @@ proto-encoded CloudEvents, transactional outbox, in-repo OIDC provider.
 `Go` `TypeScript` · closed source — architecture notes: [event-driven-go-notes](https://github.com/phquand2000/event-driven-go-notes)
 
 **[AE AI Assistant](https://github.com/phquand2000/adobe_effects_ext)** — After Effects CEP
-extension: 29 services and 158 actions for AI-driven VFX automation. `JavaScript`
+extension: 27 service modules and 158 registered actions for AI-driven VFX automation. `JavaScript`
 
 **[Word GPT Plus](https://github.com/phquand2000/docs_ext)** — AI agent inside Microsoft
 Word, bridged to external tools over MCP. `TypeScript`

@@ -4,6 +4,7 @@
       <stop offset="0.32" stop-color="#000"/><stop offset="0.66" stop-color="#fff"/>
     </linearGradient>
     <mask id="em"><rect width="1200" height="260" fill="url(#efade)"/></mask>
+    <style>@media (prefers-reduced-motion: reduce){#pulse{visibility:hidden}}</style>
   </defs>
   <rect width="1200" height="260" fill="#0b0d10"/>
   <g mask="url(#em)">
@@ -19,7 +20,7 @@
       <circle cx="740" cy="144" r="2.5"/><circle cx="860" cy="208" r="2.5"/>
       <circle cx="1040" cy="168" r="2.5"/>
     </g>
-    <circle r="3" fill="#e6edf3" opacity="0">
+    <circle id="pulse" r="3" fill="#e6edf3" opacity="0">
       <animateMotion dur="11s" repeatCount="indefinite" path="M320 104 H 700 L 740 144 H 1060 L 1100 104 H 1200"/>
       <animate attributeName="opacity" values="0;0.9;0.9;0" dur="11s" repeatCount="indefinite"/>
     </circle>
