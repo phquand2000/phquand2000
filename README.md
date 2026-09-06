@@ -1,128 +1,54 @@
 <img src="./assets/banner.png" alt="Quan Phan" width="100%" />
 
-<br/>
-
-<a href="https://github-widgetbox.vercel.app">
-  <img align="right" src="https://github-widgetbox.vercel.app/api/profile?username=phquand2000&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub Profile" />
-</a>
-
-I build products at the intersection of **browser engineering**, **AI integration**, and **workflow automation** — from patching Chromium at the C++ level to shipping AI-powered creative tools.
-
-Most of my work involves taking complex systems — browsers, video editors, document processors — and making them programmable through automation and AI agents.
+I work *down* the stack rather than across it — from patching Chromium in C++ to
+driving those same browsers with AI agents. Most of what I build takes a closed
+system (a browser, After Effects, Word, n8n) and makes it programmable.
 
 <sub>Hanoi, Vietnam</sub>
 
-<br/>
+### Where I work
 
-<p align="center">
-  <img src="https://github-widgetbox.vercel.app/api/skills?names=typescript,python,cpp,go,rust,javascript&theme=dark" alt="Languages" />
-</p>
-<p align="center">
-  <img src="https://github-widgetbox.vercel.app/api/skills?names=nestjs,react,nodejs,mysql,docker,linux&theme=dark" alt="Tools" />
-</p>
-
-> [!NOTE]
-> **Currently focused on:** anti-detect browser engine (Chromium C++, 46 patches) · AI-powered creative tools · enterprise workflow automation
-
-<details open>
-<summary><h3>Projects</h3></summary>
-
-<br/>
-
-**AI-Powered Tools**
-
-&ensp; [**AE AI Assistant**](https://github.com/phquand2000/adobe_effects_ext) — CEP extension for After Effects: 29 services, 158 actions for AI-driven VFX automation
-
-&ensp; [**Word GPT Plus**](https://github.com/phquand2000/docs_ext) — AI Agent integration into Microsoft Word with MCP server bridge
-
-&ensp; [**n8n Premium**](https://github.com/phquand2000/n8n_folk_premium) — Enterprise n8n with custom AI Workflow Builder
-
-<br/>
-
-**Browser & Systems**
-
-&ensp; [**BlurShield**](https://github.com/phquand2000/BlurShield) — Privacy-focused screen blur shield tool
-
-&ensp; [**INS Reports**](https://github.com/phquand2000/ins_reports_release) — Automated engineering report generation
-
-&ensp; [**Learning Rust**](https://github.com/phquand2000/learning_rust) — Systems programming exploration
-
-</details>
-
-<br/>
-
-```mermaid
-graph LR
-    A["Chromium C++"] --> B["Anti-detect Browser"]
-    C["TypeScript"] --> D["After Effects AI"]
-    C --> E["Word GPT Plus"]
-    F["Python"] --> G["n8n AI Builder"]
-    H["Go · Rust"] --> I["Tooling & Infra"]
-    B --> J(("Products"))
-    D --> J
-    E --> J
-    G --> J
-    I --> J
+```
+  Agents & automation    MCP bridges · CEP / Office extensions · n8n AI builder
+  ────────────────────────────────────────────────────────────────────────────
+  Distributed systems    Go · Connect RPC · NATS JetStream · transactional outbox
+  ────────────────────────────────────────────────────────────────────────────
+  Browser internals      Chromium C++ · fingerprint, TLS and HTTP/2 surfaces
 ```
 
-```mermaid
-pie showData
-    title Languages I Work With
-    "TypeScript" : 40
-    "C++" : 25
-    "Python" : 15
-    "Go" : 10
-    "Rust" : 10
-```
+The interesting problems live at the seams between those layers.
 
----
+### Selected work
 
-<details open>
-<summary><h3>Activity</h3></summary>
+**Anti-detect browser engine** — custom Chromium build, ~66 patches organised into six
+layers (de-telemetry, module, automation, fingerprint, network). Spans canvas, audio,
+WebGL and font surfaces through to TLS cipher ordering and HTTP/2 SETTINGS fingerprints.
+`C++` · closed source
 
-<br/>
+**Sourcing & fulfillment platform** — 22 Go services across 10 bounded contexts. Connect
+RPC over Buf-generated protos, one Postgres per service, NATS JetStream carrying
+proto-encoded CloudEvents, transactional outbox, in-repo OIDC provider.
+`Go` `TypeScript` · closed source
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=phquand2000&bg_color=0d1117&color=58a6ff&line=bc8cff&point=ffffff&area_color=1a1f2b&area=true&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=phquand2000&theme=minimal&hide_border=true&area=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=phquand2000&bg_color=0d1117&color=58a6ff&line=bc8cff&point=ffffff&area_color=1a1f2b&area=true&hide_border=true" alt="Activity Graph" width="700" />
-  </picture>
-</p>
+**[AE AI Assistant](https://github.com/phquand2000/adobe_effects_ext)** — After Effects CEP
+extension: 29 services and 158 actions for AI-driven VFX automation. `JavaScript`
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=dark&hide_border=true&card_width=700&background=0d1117&stroke=30363d&ring=bc8cff&fire=bc8cff&currStreakLabel=58a6ff&sideLabels=58a6ff&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=phquand2000&theme=default&hide_border=true&card_width=700" />
-    <img src="https://streak-stats.demolab.com/?user=phquand2000&theme=dark&hide_border=true&card_width=700&background=0d1117&stroke=30363d&ring=bc8cff&fire=bc8cff&currStreakLabel=58a6ff&sideLabels=58a6ff&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="GitHub Streak" />
-  </picture>
-</p>
+**[Word GPT Plus](https://github.com/phquand2000/docs_ext)** — AI agent inside Microsoft
+Word, bridged to external tools over MCP. `TypeScript`
 
-</details>
+**[n8n Premium](https://github.com/phquand2000/n8n_folk_premium)** — enterprise n8n fork
+with a custom AI Workflow Builder. `JavaScript`
 
----
+<sub>Most of my work is closed source. Happy to talk through the architecture.</sub>
 
-<details open>
-<summary><h3>3D Contributions</h3></summary>
+### Reach me
 
-<br/>
+[Email](mailto:huyquang29112001@gmail.com)
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" width="700" />
-  </picture>
-</p>
-
-</details>
-
----
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dist/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./dist/pacman-contribution-graph.svg" />
-    <img alt="Pac-Man Contribution" src="./dist/pacman-contribution-graph.svg" width="700" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/phquand2000/phquand2000/output/github-snake.svg" width="100%" />
   </picture>
 </p>
