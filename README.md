@@ -46,7 +46,8 @@ coding-agent setup so its rules actually hold: standing config, on-demand skills
 
 ### Reach me
 
-[Email](mailto:huyquang29112001@gmail.com)
+[Email](mailto:huyquang29112001@gmail.com) — or `npx phquand`, if you would rather stay in
+the terminal.
 
 ### Guestbook
 
