@@ -54,9 +54,6 @@ coding-agent setup so its rules actually hold: standing config, on-demand skills
 
 <!-- guestbook starts -->
 
-> Testing the guestbook wiring.
-> <sub>— [@phquand2000](https://github.com/phquand2000)</sub>
-
 <!-- guestbook ends -->
 
 <p align="center">
