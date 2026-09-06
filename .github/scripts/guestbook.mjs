@@ -12,6 +12,9 @@ const clean = (s) =>
   (s || '')
     .normalize('NFKC')
     .replace(/<\/?[a-zA-Z!][^>]*>/g, ' ')
+    // GitHub decodes character references at render time, so an entity-encoded
+    // bidi control would survive a filter that only looks at literal codepoints.
+    .replace(/&(?:#\d{1,7}|#[xX][0-9a-fA-F]{1,6}|[a-zA-Z][a-zA-Z0-9]{1,31});/g, ' ')
     .replace(/[\u0000-\u001F\u007F-\u009F]/g, ' ')
     .replace(/[\u00AD\u200B-\u200F\u202A-\u202E\u2060-\u2064\u2066-\u2069\uFEFF]/g, '')
     .replace(/https?:\/\/\S+/gi, '')
@@ -19,6 +22,8 @@ const clean = (s) =>
     .replace(/[<>`|\\]/g, '')
     .replace(/[[\]()]/g, '')
     .replace(/[*_~#=]/g, '')
+    // A bare @name autolinks into a mention that pings a real account.
+    .replace(/@/g, ' ')
     .replace(/^[\s>+\-!.\d]+/, '')
     .replace(/\s+/g, ' ')
     .trim();
