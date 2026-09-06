@@ -1,27 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Quan Phan — browser internals, distributed systems, agent tooling">
   <defs>
-    <pattern id="plus" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M22 15v14M15 22h14" stroke="#8b949e" stroke-width="1" fill="none"/>
-    </pattern>
-    <linearGradient id="fadeG" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0.28" stop-color="#000"/>
-      <stop offset="1"    stop-color="#fff"/>
+    <linearGradient id="efade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.32" stop-color="#000"/><stop offset="0.66" stop-color="#fff"/>
     </linearGradient>
-    <mask id="fade"><rect width="1200" height="260" fill="url(#fadeG)"/></mask>
+    <mask id="em"><rect width="1200" height="260" fill="url(#efade)"/></mask>
   </defs>
-
   <rect width="1200" height="260" fill="#0b0d10"/>
-  <g mask="url(#fade)">
-    <rect width="1200" height="260" fill="url(#plus)" opacity="0.8"/>
-    <g fill="#e6edf3">
-      <circle cx="662" cy="88"  r="2.4"><animate attributeName="opacity" values="0;0.9;0" dur="6s" begin="0s"   repeatCount="indefinite"/></circle>
-      <circle cx="838" cy="176" r="2.4"><animate attributeName="opacity" values="0;0.9;0" dur="6s" begin="1.6s" repeatCount="indefinite"/></circle>
-      <circle cx="970" cy="66"  r="2.4"><animate attributeName="opacity" values="0;0.9;0" dur="6s" begin="3.1s" repeatCount="indefinite"/></circle>
-      <circle cx="1102" cy="132" r="2.4"><animate attributeName="opacity" values="0;0.9;0" dur="6s" begin="4.4s" repeatCount="indefinite"/></circle>
-      <circle cx="750" cy="220" r="2.4"><animate attributeName="opacity" values="0;0.9;0" dur="6s" begin="2.3s" repeatCount="indefinite"/></circle>
+  <g mask="url(#em)">
+    <g fill="none" stroke="#8b949e" stroke-width="1" opacity="0.5" stroke-linecap="square">
+      <path d="M320 40 H 560 L 600 80 H 900 L 940 40 H 1200"/>
+      <path d="M320 104 H 700 L 740 144 H 1060 L 1100 104 H 1200"/>
+      <path d="M320 168 H 520 L 560 208 H 860"/>
+      <path d="M600 80 V 168"/><path d="M940 40 V 104"/><path d="M740 144 V 220"/>
+      <path d="M860 208 H 1000 L 1040 168 H 1200"/>
     </g>
+    <g fill="#8b949e" opacity="0.7">
+      <circle cx="600" cy="80" r="2.5"/><circle cx="940" cy="40" r="2.5"/>
+      <circle cx="740" cy="144" r="2.5"/><circle cx="860" cy="208" r="2.5"/>
+      <circle cx="1040" cy="168" r="2.5"/>
+    </g>
+    <circle r="3" fill="#e6edf3" opacity="0">
+      <animateMotion dur="11s" repeatCount="indefinite" path="M320 104 H 700 L 740 144 H 1060 L 1100 104 H 1200"/>
+      <animate attributeName="opacity" values="0;0.9;0.9;0" dur="11s" repeatCount="indefinite"/>
+    </circle>
   </g>
-
   <text x="64" y="132" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="56" font-weight="600" fill="#e6edf3" letter-spacing="1">Quan Phan</text>
   <text x="66" y="170" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" fill="#7d8590" letter-spacing="2.6">Browser internals · Distributed systems · Agent tooling</text>
 </svg>
