@@ -11,7 +11,7 @@ const MAX = 140;
 const clean = (s) =>
   (s || '')
     .normalize('NFKC')
-    .replace(/<[^>]*>/g, ' ')
+    .replace(/<\/?[a-zA-Z!][^>]*>/g, ' ')
     .replace(/[\u0000-\u001F\u007F-\u009F]/g, ' ')
     .replace(/[\u00AD\u200B-\u200F\u202A-\u202E\u2060-\u2064\u2066-\u2069\uFEFF]/g, '')
     .replace(/https?:\/\/\S+/gi, '')
@@ -21,10 +21,12 @@ const clean = (s) =>
     .replace(/[*_~#=]/g, '')
     .replace(/^[\s>+\-!.\d]+/, '')
     .replace(/\s+/g, ' ')
-    .trim()
-    .slice(0, MAX);
+    .trim();
 
-const message = clean(process.env.ISSUE_BODY);
+// Slice by code point: a UTF-16 cut can split an emoji into a lone surrogate.
+const clip = (s) => [...s].slice(0, MAX).join('');
+
+const message = clip(clean(process.env.ISSUE_BODY));
 const user = (process.env.ISSUE_USER || '').replace(/[^A-Za-z0-9-]/g, '').slice(0, 39);
 
 const report = (added, reason) => {
