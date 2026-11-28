@@ -1,3 +1,5 @@
+<img src="assets/banner.svg" width="100%" alt="Quan Phan, software engineer in Hanoi">
+
 ### Hi, I'm Quan
 
 Software engineer in Hanoi. I build Go backends, maintain a custom Chromium build, and write tooling for AI coding agents.
